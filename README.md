@@ -35,7 +35,7 @@ const sqlQuery = "SELECT u.user_id, u.username, COUNT(o.order_id) AS total_order
 console.log(beautifyAndColorizeSQL(sqlQuery));
 ```
 
-![img.png](img.png)
+![img.png](./assets/img.png)
 
 ## API
 
