@@ -2,7 +2,6 @@
   "name": "sql-colorful-prettify",
   "version": "0.0.1",
   "description": "Lightweight no dependencies node.js library for pretty printing sql",
-  "main": "index.js",
   "scripts": {},
   "type": "commonjs",
   "repository": {
@@ -27,5 +26,11 @@
     "prettier": "^3.3.2",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.0-alpha.10"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
   }
 }
